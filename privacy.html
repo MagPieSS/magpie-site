@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Magpie Privacy Policy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <p><a href="index.html">Magpie</a></p>
+    <h1>Privacy policy</h1>
+    <p class="lead">Last updated 12 November 2026.</p>
+
+    <p>Magpie is a desktop assistant that runs on the user's own Windows computer. This policy explains what happens to data, including data from Google accounts the user connects.</p>
+
+    <h2>Data from Google</h2>
+    <p>When the user connects a Google account, Magpie can access only the Google apps the user switches on: Google Drive, Docs, Sheets, Calendar and Gmail. It uses that access only to do what the user asks in a chat, such as finding a file, reading a document or an email, adding a calendar event, or sending an email. Every change in Google is shown to the user and waits for their confirmation.</p>
+    <p>Magpie does not sell Google data, does not use it for advertising, does not use it to train AI models, and does not transfer it to the developer or to any third party. People do not read it, except the user.</p>
+    <p>Magpie's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+    <h2>Where data is kept</h2>
+    <ul>
+      <li>Chats, notes and the activity log are stored in a database on the user's computer.</li>
+      <li>The Google sign-in (refresh token) is encrypted with the user's Windows account and stored on that computer. Short-lived access tokens are kept only in memory.</li>
+      <li>Magpie has no server of its own and collects no analytics or telemetry.</li>
+    </ul>
+
+    <h2>What leaves the computer</h2>
+    <ul>
+      <li><strong>To Google:</strong> the requests needed to do what the user asked, such as search words, the id of a file being read, or a change the user confirmed.</li>
+      <li><strong>To an AI provider, only if the user chooses one:</strong> Magpie's AI model normally runs locally. If the user picks an optional cloud model (Google Gemini or a model through OpenRouter) for a chat, the content of that chat, including any Google data read during it, is sent to that provider under its own terms.</li>
+      <li><strong>Web access, only if the user turns it on:</strong> search words and page addresses go to the search service and the sites being read.</li>
+    </ul>
+
+    <h2>Removing access and data</h2>
+    <p>The user can disconnect a Google account at any time in Magpie under Settings, then Google. This deletes the stored sign-in and asks Google to revoke it. Access can also be removed at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Uninstalling Magpie and deleting its data folder removes everything it stored.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this policy can be raised as an issue at <a href="https://github.com/MagPieSS/magpie-site/issues">github.com/MagPieSS/magpie-site</a>.</p>
+  </main>
+</body>
+</html>
